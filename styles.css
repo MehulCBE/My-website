@@ -1,0 +1,404 @@
+      
+      @font-face {
+        font-family: my font;
+        src: url(catamaran-variable.ttf);
+      }
+      @font-face {
+        font-family: head;
+        src: url(good\ times\ rg.otf);
+      }
+     
+      body{ 
+       background-color: #dadada;
+    }
+
+h1{
+    font-family: head;
+    text-align: center;
+    font-size: 4em;
+    text-decoration: underline;
+    color: rgb(223, 241, 147);
+    font-style: inherit;
+   
+    
+}
+header{
+    border-color: hsl(97, 100%, 82%);
+    border-style: solid;
+    border-width: thick;
+}
+    
+    header{
+        text-align: center;
+        padding: 7px;
+        background-color: #333;
+        color: #fff;
+    
+}
+img{
+    inline-size: 600px;
+    
+}
+h2{
+    font-weight: bolder;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 35%;
+    right: 30%;
+}
+h3{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    font-family: my font;
+    font-weight: 500;
+}
+b{
+    text-decoration: underline;
+    font-style: inherit;
+    color: rgb(116, 139, 160);
+}
+
+
+h4{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    font:small-caps bold 1.2rem sans-serif;
+}
+p{
+    font-size: larger;
+
+}
+
+.insta{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    font-size: 4em;
+    color: rgb(218, 16, 184);
+}
+.insta:hover{
+    background-color: rgb(255, 251, 251);
+    border-radius: 50%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    padding-right: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+
+.you{
+    position: absolute;
+    left: 68.5%;
+    top: 120%;
+    font-size: 4em;
+    color: red;
+}
+.you:hover{
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    padding-right: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+
+}
+.phone{
+    position: absolute;
+    top: 6%;
+    font-size: 3em;
+    color: rgb(223, 241, 147);
+}
+.num{
+  font-weight: bolder;
+  font-size: x-large;
+  position: absolute;
+  right: 84%;
+  top: 4%;
+  color: rgb(223, 241, 147);
+}
+.wha{
+    position: absolute;
+    top: 5%;
+    right: 80%;
+    font-size: 3em;
+    color: rgb(223, 241, 147);
+}
+.github{
+  position: absolute;
+  left: 88%;
+  top: 120%;
+  font-size: 4em;
+  color: black;
+}
+.github:hover{
+    color: white;
+    background-color: rgb(129, 129, 129);
+    border-radius: 50%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    padding-right: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+.copy{
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    top: 142%;
+    padding: 1px;
+    color: gray;
+    width: 100%;
+    text-align: center;
+}
+
+.catr{
+inline-size: 10%;
+position: absolute;
+bottom: 75.5%;
+right: 4%;
+border-radius: 100%;
+}
+.mehu{
+background-color: rgb(0, 0, 0);
+color: rgb(223, 241, 147);
+border-radius: 35%;
+text-decoration: none;
+}
+.intro{
+font-size: xx-large;
+position: absolute;
+top: 2.7%;
+color: orangered;
+right: 17%;
+font:small-caps bold 2.8em sans-serif;
+background-color: purple;
+border-radius: 49%;
+padding: 15px;
+border-style: solid;
+border-width: thick;
+}
+
+
+
+@media (max-width:1024px){
+    .num{
+        right: 70%;
+        top: 12%;
+    }
+    .intro{
+         font-size: 1.7em;
+         top: 10%;
+    }
+    h2{
+        top: 78%;
+        right: 20%;
+    }
+    h3{
+        top: 90%;
+    }
+    .insta{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        
+        
+    }
+    .mehul{
+        inline-size: 500px;
+        padding-top: 33%;
+    }
+    .you{
+        top: 45%;
+        left: 10%;
+    }
+    .github{
+        top: 45%;
+        left: 85%;
+    }
+    .copy{
+        top: 210%;
+    }
+    h4{
+        top: 130%;
+    }
+}
+@media (max-width:973px){
+    .mehul{
+        inline-size: 600px;
+        
+        position: absolute;
+    
+    }
+    .copy{
+        top: 231%;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+    .copy{
+        top: 290%;
+    }
+    h4{
+        position: absolute;
+        top: 245%;
+        left: 5%;
+    }
+    h3{
+        position: absolute;
+        top: 75%;
+        left: 5%;
+    }
+    h2{
+        position: absolute;
+        top: 65%;
+        left: 5%;
+    }
+    .github{
+        top: 220%;
+    }
+    .insta{
+        left: 86%;
+        top: 145%;
+    }
+    .you{
+        left: 85%;
+        top: 70%;
+    }
+}
+@media (max-width:768px){
+    .mehul{
+        inline-size: 470px;
+        top: 50%;
+    }
+    h4{
+        top: 220%;
+    }
+    .copy{
+        top: 260%;
+    }
+    .github{
+        top: 196%;
+    }
+    .insta{
+        top: 150%;
+        left: 84%;
+    }
+    .you{
+        top: 107%;
+        left: 84%;
+    }
+    .intro{
+        top: 34%;
+        font-size: 3em;
+        right: 35%;
+    }
+    .num{
+        font-size: 1.3em;
+        left: 1%;
+    }
+}
+@media (max-width:596px){
+    .num{
+        display: none;
+    }
+    .mehul{
+        top: 83%;
+        inline-size: 380px;
+    }
+    .you{
+        font-size: 2em;
+    }
+    .insta{
+        font-size: 2em;
+    }
+    .github{
+        font-size: 2em;
+    }
+    .copy{
+        top: 280%;
+    }
+}
+@media (max-width:508px){
+    .mehul{
+        inline-size: 300px;
+        top: 78%;
+    }
+    .insta{
+        top: 150%;
+    }
+    .github{
+        top: 175%;
+    }
+    .you{
+        top: 120%;
+    }
+    h4{
+        top: 190%;
+    }
+
+.copy{
+    top: 250%;
+}
+    }
+    data-styles>ion-icon.hydrated{visibility: inherit;}
+    @media (max-width:375px){
+        .github{
+            top: 250%;
+        }
+        .copy{
+            top: 260%;
+        }
+        .you{
+            top: 250%;
+            left: 48%;
+        }
+        .insta{
+            top: 250%;
+            left: 5%;
+        }
+        .mehul{
+            top: 87%;
+            right: 10%;
+        }
+        .intro{
+            right: 17%;
+        }
+    }
+    @media (max-width:320px){
+        .mehul{
+            top: 105%;
+            right: 3%;
+        }
+        .copy{
+            top: 280%;
+        }
+        .insta{
+            top: 270%;
+        }
+        .github{
+            top: 270%;
+        }
+        .you{
+            top: 270%;
+        }
+        h4{
+            top: 210%;
+        }
+    }
